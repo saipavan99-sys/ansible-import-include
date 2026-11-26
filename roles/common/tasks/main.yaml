@@ -4,7 +4,7 @@
 
 - name: msg-2
   debug:
-    msg: "Hi from msg-2" 
+    msg: "Hi from msg-2 {{ item }}" 
   tags:
   - hi  
 

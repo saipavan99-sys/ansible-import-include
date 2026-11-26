@@ -5,3 +5,6 @@
   when: OS == "Redhat"   
   tags:
   - hi
+  loop:
+  - sai
+  - pavan
