@@ -5,6 +5,8 @@
 - name: msg-2
   debug:
     msg: "Hi from msg-2" 
+  tags:
+  - hi  
 
 - name: change the variable
   set_fact:
