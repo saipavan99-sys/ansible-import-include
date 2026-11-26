@@ -6,6 +6,10 @@
   debug:
     msg: "Hi from msg-2" 
 
+- name: change the variable
+  set_fact:
+    OS: "Debain"
+
 - name: msg-3
   debug:
     msg: "Hi from msg-3"
