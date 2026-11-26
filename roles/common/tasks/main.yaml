@@ -8,9 +8,9 @@
   tags:
   - hi  
 
-- name: change the variable
-  set_fact:
-    OS: "Debain"
+# - name: change the variable
+#   set_fact:
+#     OS: "Debain"
 
 - name: msg-3
   debug:
